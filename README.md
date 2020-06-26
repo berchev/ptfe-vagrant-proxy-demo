@@ -14,7 +14,7 @@ Our VMs configuration include:
 ## Repo Content
 | File                   | Description                      |
 |         ---            |                ---               |
-| [Vagrantfile](Vagrantfile) | Vagrant template file. TFE env is going to be cretated based on that file|
+| [Vagrantfile](Vagrantfile) | Vagrant template file. TFE env behind Proxy server is going to be cretated based on that file|
 | [delete_all.sh](delete_all.sh) | Purpose of this script is to break our environment. We will use it during snapshot restore|
 |[scripts/ptfe_provision.sh](scripts/ptfe_provision.sh)| depends on some checks, this script will perform TFE install or restore|
 |[scripts/proxy_provision.sh](scripts/proxy_provision.sh)| Install and configure a proxy server VM|
