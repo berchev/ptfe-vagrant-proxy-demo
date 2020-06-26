@@ -1,0 +1,11 @@
+{
+    "hostname": {
+        "value": "192.168.56.33.xip.io"
+    },
+    "installation_type": {
+        "value": "poc"
+    },
+    "capacity_concurrency": {
+        "value": "5"
+    }
+}
